@@ -9,8 +9,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
         android:text="Art Website"
-        android:textSize="50sp" />
+        android:paddingTop="50dp"
+        android:textSize="60sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:src="@drawable/cover_photo"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,13 +34,15 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
             android:layout_marginRight="50dp"
-            android:text="Art"/>
+            android:text="Art"
+            android:onClick="artPage"/>
 
         <Button
             android:id="@+id/contact_me_page"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Contact Me"/>
+            android:text="Contact Me"
+            android:onClick="contactMe"/>
 
     </LinearLayout>
 
