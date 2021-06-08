@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class ArtPage extends AppCompatActivity {
+public class ArtPageActivty extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.art_page);
+        setContentView(R.layout.activity_art_page_activty);
     }
 }

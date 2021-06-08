@@ -15,20 +15,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This will open the NowHiring page when the button is clicked
+     * This will open the Art page when the button is clicked
      * @param view
      */
     public void artPage(View view) {
-        Intent i = new Intent(this,ArtPage.class);
+        Intent i = new Intent(this,ArtPageActivty.class);
         startActivity(i);
     }
 
     /**
-     * This will open the NowHiring page when the button is clicked
+     * This will open the Contact Me page when the button is clicked
      * @param view
      */
     public void contactMe(View view) {
-        Intent i = new Intent(this,ContactMePage.class);
+        Intent i = new Intent(this,ContactMeActivity.class);
         startActivity(i);
     }
 }
